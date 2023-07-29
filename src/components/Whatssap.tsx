@@ -1,6 +1,5 @@
 import CarteDeVisite from "./CarteDeVisite";
-import { Button } from "./ui/button";
-import { Download } from 'lucide-react';
+
 
 const Footer = () => {
     return (
