@@ -1,4 +1,3 @@
-import CarteDeVisite from "./components/CarteDeVisite"
 import Contact from "./components/Contact"
 import ExtraInfo from "./components/ExtraInfo"
 import Header from "./components/Header"

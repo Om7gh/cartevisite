@@ -1,13 +1,14 @@
 import ReactWhatsapp from "react-whatsapp"
 import { Button } from "./ui/button"
-import {FaWhatsapp} from "react-icons/fa"
+import { FaWhatsapp } from "react-icons/fa"
 
 const GoToWhatssap = () => {
     return (
         <Button className="m-auto bg-green-900">
             <FaWhatsapp className="w-5 h-5" />
             <ReactWhatsapp
-                number="+2120623868579"
+                element="button"
+                number="+2120667159633"
                 message="Bonjour !"
                 style={{
                     border: "none",
@@ -17,7 +18,7 @@ const GoToWhatssap = () => {
                     color: "var(--gray-color)",
                 }}
             >
-                +212 623-868579
+                +212 0667159633
             </ReactWhatsapp>
         </Button>
 

@@ -1,9 +1,8 @@
-import React from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa"
-type Props = {}
+import { FaFacebookF } from "react-icons/fa"
 
-const SocialMedia = (props: Props) => {
+
+const SocialMedia = () => {
     return (
         <Card className='md:w-1/2 m-auto mt-10 mb-10 w-80'>
             <CardHeader>
@@ -16,17 +15,8 @@ const SocialMedia = (props: Props) => {
             </CardHeader>
             <CardContent>
                 <div className="flex justify-center items-center-flex-wrap gap-10">
-                    <div className='text-2xl text-blue-800'>
-                        <a href=""><FaFacebookF /></a>
-                    </div>
-                    <div className='text-2xl text-red-900'>
-                        <a href=""><FaInstagram /></a>
-                    </div>
-                    <div className='text-2xl text-blue-500'>
-                        <a href=""><FaTwitter /></a>
-                    </div>
-                    <div className='text-2xl text-slate-800'>
-                        <a href=""><FaLinkedinIn /></a>
+                    <div className='text-2xl text-blue-800 bg-slate-200 w-10 h-10 flex justify-center items-center rounded-lg hover:bg-slate-800 hover:text-white cursor-pointer transition-all duration-150'>
+                        <a href="https://web.facebook.com/rahmaninadou?mibextid=ZbWKwL&_rdc=1&_rdr" target='_blank'><FaFacebookF /></a>
                     </div>
                 </div>
             </CardContent>
